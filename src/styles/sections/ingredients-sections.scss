@@ -1,0 +1,39 @@
+.ingredients-section{
+  .ingredients__title {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: $gray1;
+  }
+
+  .sub-categories{
+    .sub-category__title{
+      margin-top: 36px;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', sans-serif;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      color: $gray1;
+    }
+
+    .sub-category__ingredients-list{
+      .sub_category__ingredient__item{
+        margin-top: 12px;
+        .ingredients-section__checkbox{
+          margin-right: 5px;
+        }
+
+        .ingredients-section__ingredient-name{
+          font-family: 'Montserrat', sans-serif;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 25px;
+          color: $gray1;
+        }
+      }
+    }
+  }
+}

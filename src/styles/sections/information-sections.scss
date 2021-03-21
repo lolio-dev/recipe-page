@@ -1,0 +1,58 @@
+.information__section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 216px;
+  height: 367px;
+
+  padding-left: 43px;
+
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.information__item{
+  display: flex;
+
+  margin-top: 42px;
+
+  .information__icon{
+    font-size: 35px;
+    color: $gray2;
+
+    margin-right: 14px;
+  }
+
+  .information__text{
+    .information__title{
+      color: $gray4;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 12px;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .information__value{
+      color: $gray1;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 17px;
+      font-size: 14px;
+      margin-top: 4px;
+    }
+  }
+}
+
+.information__item:first-child{
+  margin-top: 0;
+  .information__icon{
+    color: #F2994A;
+  }
+
+  .information__text{
+    .information__value{
+      color: #F2994A;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.instruction__item{
+  margin-top: 28px;
+  display: flex;
+
+  .information__item-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 36px;
+    height: 36px;
+
+    min-width: 36px;
+    max-width: 36px;
+
+    background: #F2994A;
+    border-radius: 6px;
+
+    .information__item-index-text{
+      margin-top: -8px;
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      color: #FFFFFF;
+    }
+  }
+
+  .information__item-text{
+    float: right;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: $gray1;
+
+    margin-left: 15px;
+  }
+}
